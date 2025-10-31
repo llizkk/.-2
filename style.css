@@ -1,0 +1,52 @@
+.hero-section {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            padding: 120px 0 80px;
+        }
+        
+        .service-card {
+            transition: none;
+        }
+        
+        .service-card:hover {
+            transform: none;
+        }
+        
+        .card {
+            transition: none;
+        }
+        
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: rgba(0,0,0,0.2);
+        }
+        
+        .nav-link.active {
+            font-weight: bold;
+        }
+        
+        .tab-pane {
+            display: none;
+        }
+        
+        .tab-pane.active {
+            display: block;
+        }
+
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown-menu {
+    margin-top: 0;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
